@@ -3,13 +3,15 @@
 <!-- l'idée : vous créez la structure de votre page et vous remplissez les trous par des variables. -->
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8" />
-      <title><?= $title ?></title>
-      <link href="style.css" rel="stylesheet" /> 
-   </head>
 
-   <body>
-      <?= $content ?>
-   </body>
+<head>
+   <meta charset="utf-8" />
+   <title><?= $title ?></title>
+   <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+   <?= $content ?>
+</body>
+
 </html>
